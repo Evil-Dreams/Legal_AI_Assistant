@@ -34,33 +34,58 @@ LawAIBot is a full-stack AI-powered chatbot designed to help users understand In
 
 ## 📁 Folder Structure
 📦 legal-ai-assistant
-├── 📁 apps
-│   └── 📁 web                    # Frontend React App (Vite + TailwindCSS)
-│       ├── 📁 public            # Public assets
-│       ├── 📁 src
-│       │   ├── 📁 app           # App structure
-│       │   ├── 📁 components    # Reusable UI components
-│       │   ├── 📁 lib           # Utility functions
-│       │   ├── 📁 pages         # Route-based pages (e.g., Chat, Login)
-│       │   └── 📁 styles        # TailwindCSS and custom styles
-│       ├── .env                # Environment variables for frontend
-│       └── vite.config.ts      # Vite config
-│
-├── 📁 packages
-│   ├── 📁 config                # Shared configuration (e.g., DB, Auth)
-│   ├── 📁 db                    # Database schema & migration using Drizzle ORM
-│   │   ├── 📄 schema.ts
-│   │   └── 📄 seed.ts           # (If exists) to populate DB
-│   ├── 📁 ui                    # Shared UI components (like cards, buttons)
-│   └── 📁 utils                 # Shared utilities across frontend/backend
-│
-├── 📁 screenshots               # Screenshots for documentation
-│
-├── .gitignore
-├── README.md
-├── package.json
-└── turbo.json                  # Turborepo configuration
 
+├── 📁 apps
+
+│   └── 📁 web                    # Frontend React App (Vite + TailwindCSS)
+
+│       ├── 📁 public            # Public assets
+
+│       ├── 📁 src
+
+│       │   ├── 📁 app           # App structure
+
+│       │   ├── 📁 components    # Reusable UI components
+
+│       │   ├── 📁 lib           # Utility functions
+
+│       │   ├── 📁 pages         # Route-based pages (e.g., Chat, Login)
+
+│       │   └── 📁 styles        # TailwindCSS and custom styles
+
+│       ├── .env                # Environment variables for frontend
+
+│       └── vite.config.ts      # Vite config
+
+│
+
+├── 📁 packages
+
+│   ├── 📁 config                # Shared configuration (e.g., DB, Auth)
+
+│   ├── 📁 db                    # Database schema & migration using Drizzle ORM
+
+│   │   ├── 📄 schema.ts
+
+│   │   └── 📄 seed.ts           # (If exists) to populate DB
+
+│   ├── 📁 ui                    # Shared UI components (like cards, buttons)
+
+│   └── 📁 utils                 # Shared utilities across frontend/backend
+
+│
+
+├── 📁 screenshots               # Screenshots for documentation
+
+│
+
+├── .gitignore
+
+├── README.md
+
+├── package.json
+
+└── turbo.json                  # Turborepo configuration
 
 ![image](https://github.com/user-attachments/assets/633099ed-454a-4938-8646-3500c0a29041)
 
